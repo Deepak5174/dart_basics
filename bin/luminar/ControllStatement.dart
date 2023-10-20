@@ -35,20 +35,46 @@ void main() {
   //   print("email authantication failed");
   // }
 
-  print("enter your shirt size");
-  String? size = stdin.readLineSync()!;
+  ///else if ladder
 
-  if (size == "XS") {
-    print("your shirt size is XS");
-  } else if (size == "S") {
-    print("your shirt size is S");
-  } else if (size == "M") {
-    print("your shirt size is M");
-  } else if (size == "L") {
-    print("your shirt size is L");
-  } else if (size == "XL") {
-    print("your shirt size is XL");
-  } else {
-    print("your shirt size dose not match");
+  // print("enter your shirt size");
+  // String? size = stdin.readLineSync()!;
+  //
+  // if (size == "XS") {
+  //   print("your shirt size is XS");
+  // } else if (size == "S") {
+  //   print("your shirt size is S");
+  // } else if (size == "M") {
+  //   print("your shirt size is M");
+  // } else if (size == "L") {
+  //   print("your shirt size is L");
+  // } else if (size == "XL") {
+  //   print("your shirt size is XL");
+  // } else {
+  //   print("your shirt size dose not match");
+  // }
+
+/// switch case
+  print ("enter your shoe size");
+
+  int size = int.parse(stdin.readLineSync()!);
+
+  switch (size){
+    case 5:
+      print("your shoe size is 5");
+      break;
+    case 6:
+      print("your shoe size is 6");
+      break;
+    case 7:
+      print("your shoe size is 7");
+      break;
+    case 8:
+      print("your shoe size is 8");
+      break;
+    default :
+      print("Shoe size is not available ");
   }
+
+
 }
