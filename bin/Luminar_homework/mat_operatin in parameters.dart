@@ -12,6 +12,8 @@ void main(){
   String data_from_div = div(10, 5);
   print(data_from_div);
 
+print("sum = ${addd(1, 2, 5)}");
+
 }
 
 String add (int a, int b){
@@ -37,4 +39,9 @@ String multi (int a, int b){
 String div(double a, double b){
   String div_data = "division = ${a/b}";
   return div_data;
+}
+
+int addd (int a, int b , int c){
+  int sum =a+b+c;
+  return sum;
 }
