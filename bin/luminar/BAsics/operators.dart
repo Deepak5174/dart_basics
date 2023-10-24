@@ -55,7 +55,7 @@ void main(){
 
   String? uname= stdin.readLineSync();
   print("Enter your Password");
-  int? password = int.parse(stdin.readLineSync()!);
+  int? password = int.parse(stdin.readLineSync()!);                                                                                                    
   print("Enter the otp you recived");
   int? otpv = int.parse(stdin.readLineSync()!);
   print(username == uname && pass==password);
